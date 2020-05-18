@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5e64400-bb35-45ef-9d4c-4ae52269585c" name="Default Changelist" comment="" />
+    <list default="true" id="e5e64400-bb35-45ef-9d4c-4ae52269585c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice1/MessageDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice1/MessageDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/miedviediev/cs/Practice1/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/miedviediev/cs/Practice1/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miedviediev/cs/Practice1/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miedviediev/cs/Practice1/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miedviediev/cs/Practice1/MessageDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miedviediev/cs/Practice1/MessageDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miedviediev/cs/Practice1/MessageEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miedviediev/cs/Practice1/MessageEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/miedviediev/cs/Practice1/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/miedviediev/cs/Practice1/AppTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bpB7CgYeJa5fncH8mkQWVYBzq1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -42,7 +57,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.miedviediev.cs.Practice1.App" />
       <module name="Practice1" />
@@ -57,8 +72,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miedviediev.cs.Practice1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.miedviediev.cs.Practice1" />
+      <option name="MAIN_CLASS_NAME" value="com.miedviediev.cs.Practice1.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -74,6 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589318984898</updated>
       <workItem from="1589318993598" duration="20205000" />
+      <workItem from="1589815309142" duration="885000" />
     </task>
     <servers />
   </component>
@@ -89,42 +121,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1589386340310" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1589452491044">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1589816188114">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589452491044" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1589452491044">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589816188114" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1589816188114">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589452491044" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1589452491043">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589816188114" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1589816188114">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589452491043" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1589452491044">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589816188114" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1589816188114">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589452491044" />
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1589452491045">
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589816188114" />
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1589816173561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589452491045" />
-    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1589452491044">
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589816173561" />
+    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1589816173561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589452491044" />
-    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1589452491044">
+    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589816173561" />
+    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1589816173561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589452491044" />
-    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1589452491044">
+    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589816173561" />
+    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1589816173561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589452491044" />
-    <state x="628" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589318994666">
+    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589816173561" />
+    <state x="628" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589815361952">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="628" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589318994666" />
+    <state x="628" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589815361952" />
     <state x="474" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589368168075">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -137,5 +169,16 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589385540038" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice1/App.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

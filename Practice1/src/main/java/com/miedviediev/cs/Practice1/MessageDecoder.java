@@ -87,6 +87,7 @@ public class MessageDecoder {
             buffer.get(check, 0, msgLen);
             if(buffer.getShort() != CRC16.calc(check))
                 throw new Exception("CRC16 is different");
+            buffer.position(buffer.position() - msgLen - 2);
             int cType = buffer.getInt();
             int bUserId = buffer.getInt();
             check = new byte[msgLen - 8];

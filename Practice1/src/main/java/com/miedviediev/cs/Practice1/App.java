@@ -22,8 +22,8 @@ public class App
     }
 
     public static String test(String input) {
-        byte[] encodedMessage = MessageEncoder.getInstance().encodePackage(input, Integer.valueOf(5).byteValue());
-        return MessageDecoder.getInstance().decodePackage(encodedMessage);
+        byte[] encodedMessage = MessageEncoder.getInstance().encodePackage(new PackageInfo(Integer.valueOf(5).byteValue(), 5, 2, input));
+        return MessageDecoder.getInstance().decodePackage(encodedMessage).getMessage();
     }
 
 }
