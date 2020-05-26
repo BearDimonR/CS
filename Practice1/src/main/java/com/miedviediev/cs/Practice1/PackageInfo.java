@@ -45,4 +45,15 @@ public class PackageInfo {
         this.cType = cType;
         this.message = message;
     }
+
+    @Override
+    public String toString() {
+        return "PackageInfo{" +
+                "bPktId=" + bPktId +
+                ", cType=" + cType +
+                ", bUserId=" + bUserId +
+                ", bSrc=" + bSrc +
+                ",\n message='" + message + '\'' +
+                '}';
+    }
 }
