@@ -2,6 +2,7 @@ package com.miedviediev.cs.Practice3.Servers;
 
 import com.miedviediev.cs.Database.Connector;
 import com.miedviediev.cs.Database.GroupDAO;
+import com.miedviediev.cs.Database.ProductDAO;
 import com.miedviediev.cs.Homework2.Receivers.ServerReceiver;
 import com.miedviediev.cs.Practice1.Cryption.ServerTCPKeys;
 
@@ -11,7 +12,6 @@ import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.security.KeyFactory;
 import java.security.spec.X509EncodedKeySpec;
-import java.sql.SQLException;
 import java.util.*;
 
 public class StoreServerTCP implements Runnable {

@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/cs_practice</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="cs_practice" uuid="c6bf33c9-2142-47d8-867b-3d65ae0f22f0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Term4D\CS\Practice3\cs_practice.db</jdbc-url>
+    </data-source>
   </component>
 </project>

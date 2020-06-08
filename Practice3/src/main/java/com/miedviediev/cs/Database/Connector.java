@@ -25,8 +25,10 @@ public class Connector {
 
     private Connector() {
         try {
-            Class.forName("org.postgresql.Driver");
-            pool = ConnectionPool.create(URL, USERNAME, PASSWORD);
+            //Class.forName("org.postgresql.Driver");
+            //pool = ConnectionPool.create(URL, USERNAME, PASSWORD);
+            Class.forName("org.sqlite.JDBC");
+            pool = ConnectionPool.create("jdbc:sqlite:cs_practice.db", null, null);
         } catch (ClassNotFoundException e) {
             System.err.println("Database driver loading problem!");
             e.printStackTrace();
