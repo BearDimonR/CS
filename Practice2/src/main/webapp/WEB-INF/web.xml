@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>ua.com.ke4a_store.Controller.LoginController</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>groups</servlet-name>
+        <servlet-class>ua.com.ke4a_store.Controller.GroupsController</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>goods</servlet-name>
+        <servlet-class>ua.com.ke4a_store.Controller.GoodsController</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>result</servlet-name>
+        <servlet-class>ua.com.ke4a_store.Controller.ResultController</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>edit</servlet-name>
+        <servlet-class>ua.com.ke4a_store.Controller.EditController</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>groups</servlet-name>
+        <url-pattern>/groups</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>goods</servlet-name>
+        <url-pattern>/goods</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>result</servlet-name>
+        <url-pattern>/result</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>edit</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+
+</web-app>

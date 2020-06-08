@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5e64400-bb35-45ef-9d4c-4ae52269585c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Commands/AddAmountProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Commands/AddGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Commands/AddGroupProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Commands/AmountProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Commands/ECommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Commands/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Commands/PriceSetCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Commands/ReduceAmountProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Models/GroupProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Models/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Receivers/FakeReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Receivers/IReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Receivers/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Receivers/TaskReject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Homework2/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/miedviediev/cs/Homework2/HomeworkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice2/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice3/Clients/StoreClientTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice3/Clients/StoreClientUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice3/Servers/StoreServerTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice3/Servers/StoreServerUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice3/src/main/java/com/miedviediev/cs/Practice1/Cryption/ServerTCPKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice1/PackageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miedviediev/cs/Practice1/PackageInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miedviediev/cs/Practice1/PackageInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miedviediev/cs/Practice1/PackageInfo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practice3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -197,7 +178,14 @@
       <workItem from="1589815309142" duration="885000" />
       <workItem from="1589922835172" duration="8533000" />
       <workItem from="1589968487226" duration="6907000" />
-      <workItem from="1590437386560" duration="36352000" />
+      <workItem from="1590437386560" duration="37510000" />
+      <workItem from="1590756849841" duration="91000" />
+      <workItem from="1590776193749" duration="1842000" />
+      <workItem from="1590859253806" duration="1324000" />
+      <workItem from="1590951232247" duration="48000" />
+      <workItem from="1591002333432" duration="14000" />
+      <workItem from="1591002397421" duration="5998000" />
+      <workItem from="1591026081249" duration="3634000" />
     </task>
     <servers />
   </component>
@@ -229,22 +217,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="384" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590505410025" />
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom" timestamp="1590525949373">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591023884443">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590525949373" />
-    <state width="1877" height="365" key="GridCell.Tab.0.center" timestamp="1590525949373">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591023884443" />
+    <state width="1877" height="365" key="GridCell.Tab.0.bottom" timestamp="1590562590067">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590525949373" />
-    <state width="1877" height="365" key="GridCell.Tab.0.left" timestamp="1590525949372">
+    <state width="1877" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590562590067" />
+    <state width="1877" height="365" key="GridCell.Tab.0.center" timestamp="1590562590066">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590525949372" />
-    <state width="1877" height="365" key="GridCell.Tab.0.right" timestamp="1590525949373">
+    <state width="1877" height="365" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590562590066" />
+    <state width="1877" height="365" key="GridCell.Tab.0.left" timestamp="1590562590066">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590525949373" />
+    <state width="1877" height="365" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590562590066" />
+    <state width="1877" height="365" key="GridCell.Tab.0.right" timestamp="1590562590067">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590562590067" />
     <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1589816173561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -265,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1590440417367" />
-    <state x="628" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589968527667">
+    <state x="628" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1591003381283">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="628" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589968527667" />
+    <state x="628" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591003381283" />
     <state x="474" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589368168075">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
